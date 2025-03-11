@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      animation: gradientBG 10s infinite alternate;
+    }
+
+    @keyframes gradientBG {
+      0% { background-color: #ff9a9e; }
+      50% { background-color: #fad0c4; }
+      100% { background-color: #ffdde1; }
+    }
+
+    .start-btn {
+      font-size: 24px;
+      padding: 15px 30px;
+      background: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .start-btn:hover {
+      transform: scale(1.1);
+    }
+
+    #test-container, #result-container {
+      display: none;
+      padding: 20px;
+      width: 90%;
+      max-width: 600px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      text-align: left;
+    }
+
+    .question-container { display: none; }
+    .active { display: block; }
+
+    .nav-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .nav-buttons button {
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .prev-btn { background: #FFA500; color: white; }
+    .next-btn { background: #28a745; color: white; }
+    .submit-btn { background: red; color: white; }
+
+    .nav-buttons button:hover {
+      transform: scale(1.1);
+    }
+
+    label {
+      display: block;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin: 5px 0;
+      cursor: pointer;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    input[type="radio"]:checked + label {
+      background: #007BFF;
+      color: white;
+    }
+
+    #result-container {
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+<button id="start-btn" class="start-btn" onclick="startTest()">Testni boshlash</button>
+<div id="test-container"></div>
+<div id="result-container"></div>
+
+<script>
+  let currentQuestionIndex = 0;
+  let questions = [];
+  let answers = {};
+
+  async function startTest() {
+    document.getElementById("start-btn").style.display = "none";
+    document.getElementById("test-container").style.display = "block";
+    await loadQuestions();
+  }
+
+  async function loadQuestions() {
+    const response = await fetch('/api/tests/random');
+    questions = await response.json();
+    let testContainer = document.getElementById('test-container');
+
+    questions.forEach((q, index) => {
+      let div = document.createElement('div');
+      div.className = "question-container";
+      if (index === 0) div.classList.add("active");
+
+      let optionsHTML = q.options.map(option =>
+              `<input type="radio" name="q${index}" id="q${index}_${option}" value="${option}" onclick="selectAnswer(${index}, '${option}')">
+         <label for="q${index}_${option}">${option}</label>`
+      ).join('');
+
+      div.innerHTML = `<p><b>${index + 1}. ${q.question}</b></p>` + optionsHTML;
+      testContainer.appendChild(div);
+    });
+
+    testContainer.innerHTML += `<div class='nav-buttons'>
+                                  <button class='prev-btn' onclick='prevQuestion()'>⬅ Oldingi</button>
+                                  <button class='next-btn' onclick='nextQuestion()'>Keyingi ➡</button>
+                                  <button class='submit-btn' onclick='submitTest()'>✅ Testni yakunlash</button>
+                                </div>`;
+  }
+
+  function selectAnswer(index, option) {
+    answers[index] = option;
+  }
+
+  function prevQuestion() {
+    if (currentQuestionIndex > 0) {
+      document.querySelectorAll(".question-container")[currentQuestionIndex].classList.remove("active");
+      currentQuestionIndex--;
+      document.querySelectorAll(".question-container")[currentQuestionIndex].classList.add("active");
+    }
+  }
+
+  function nextQuestion() {
+    if (currentQuestionIndex < questions.length - 1) {
+      document.querySelectorAll(".question-container")[currentQuestionIndex].classList.remove("active");
+      currentQuestionIndex++;
+      document.querySelectorAll(".question-container")[currentQuestionIndex].classList.add("active");
+    }
+  }
+
+  async function submitTest() {
+    if (Object.keys(answers).length < questions.length) {
+      let confirmFinish = confirm("Hali barcha savollarga javob berilmadi. Baribir testni yakunlashni istaysizmi?");
+
+      if (!confirmFinish) {
+        return;
+      } else {
+        document.getElementById("test-container").style.display = "none";
+        document.getElementById("result-container").style.display = "block";
+        document.getElementById("result-container").innerHTML = `<p>Sizning testni oxirigacha yetib bormadingiz.</b></p>`;
+        return;
+      }
+    }
+
+
+    const response = await fetch('/api/tests/check', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(answers)
+    });
+
+    const result = await response.text();
+
+   
+    document.getElementById("test-container").style.display = "none";
+    document.getElementById("result-container").style.display = "block";
+    document.getElementById("result-container").innerHTML = `<p>Sizning natijangiz: <b>${result}</b></p>`;
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,443 @@
+[
+  {
+    "question": "Suv necha darajada qaynaydi?",
+    "options": ["90°C", "100°C", "110°C", "120°C"],
+    "answer": "100°C"
+  },
+  {
+    "question": "Yer qaysi sayyoraga eng yaqin?",
+    "options": ["Mars", "Venera", "Yupiter", "Merkuriy"],
+    "answer": "Venera"
+  },
+  {
+    "question": "Inson tanasining eng katta organi qaysi?",
+    "options": ["Yurak", "Jigar", "Terisi", "Buyrak"],
+    "answer": "Terisi"
+  },
+  {
+    "question": "Eng katta okean qaysi?",
+    "options": ["Atlantika", "Hind", "Tinch", "Shimoliy Muz"],
+    "answer": "Tinch"
+  },
+  {
+    "question": "1 km necha metrga teng?",
+    "options": ["100", "500", "1000", "1500"],
+    "answer": "1000"
+  },
+  {
+    "question": "Odamlarda necha juft xromosoma bor?",
+    "options": ["22", "23", "24", "25"],
+    "answer": "23"
+  },
+  {
+    "question": "Dunyodagi eng uzun daryo qaysi?",
+    "options": ["Nil", "Amazonka", "Missisipi", "Volga"],
+    "answer": "Nil"
+  },
+  {
+    "question": "Dunyodagi eng katta qit'a qaysi?",
+    "options": ["Afrika", "Yevropa", "Osiyo", "Janubiy Amerika"],
+    "answer": "Osiyo"
+  },
+  {
+    "question": "Eng tez yuguruvchi hayvon qaysi?",
+    "options": ["Sher", "Gepard", "Tulki", "Bo'ri"],
+    "answer": "Gepard"
+  },
+  {
+    "question": "Dunyodagi eng baland tog' qaysi?",
+    "options": ["Everest", "Kilimanjaro", "Elbrus", "Mak-Kinli"],
+    "answer": "Everest"
+  },
+  {
+    "question": "Bir soat necha daqiqadan iborat?",
+    "options": ["30", "45", "50", "60"],
+    "answer": "60"
+  },
+  {
+    "question": "Qaysi metall eng yengil?",
+    "options": ["Oltin", "Aluminiy", "Litiy", "Temir"],
+    "answer": "Litiy"
+  },
+  {
+    "question": "Inson yuragi kuniga necha marta uradi?",
+    "options": ["50 ming", "100 ming", "200 ming", "500 ming"],
+    "answer": "100 ming"
+  },
+  {
+    "question": "Yerning tabiiy yo‘ldoshi qaysi?",
+    "options": ["Quyosh", "Oy", "Mars", "Venera"],
+    "answer": "Oy"
+  },
+  {
+    "question": "Dunyodagi eng katta hayvon qaysi?",
+    "options": ["Fil", "Ko'k kit", "Krokodil", "Tulki"],
+    "answer": "Ko'k kit"
+  },
+  {
+    "question": "Odamlar qaysi gazni nafas oladi?",
+    "options": ["Azot", "Kislorod", "Vodorod", "Karbonat angidrid"],
+    "answer": "Kislorod"
+  },
+  {
+    "question": "Qaysi meva eng ko‘p C vitamini saqlaydi?",
+    "options": ["Olma", "Banan", "Limon", "Nok"],
+    "answer": "Limon"
+  },
+  {
+    "question": "Dunyodagi eng sovuq qit'a qaysi?",
+    "options": ["Antarktida", "Afrika", "Yevropa", "Osiyo"],
+    "answer": "Antarktida"
+  },
+  {
+    "question": "Eng ko‘p aholiga ega davlat qaysi?",
+    "options": ["Hindiston", "AQSh", "Xitoy", "Rossiya"],
+    "answer": "Xitoy"
+  },
+  {
+    "question": "Eng tez yurar transport qaysi?",
+    "options": ["Avtomobil", "Tepa poyezd", "Velosiped", "Ot"],
+    "answer": "Tepa poyezd"
+  },
+  {
+    "question": "Dunyodagi eng katta davlat qaysi?",
+    "options": ["Xitoy", "AQSh", "Rossiya", "Kanada"],
+    "answer": "Rossiya"
+  },
+  {
+    "question": "Qaysi organ inson tanasida qonni tozalaydi?",
+    "options": ["Jigar", "Buyrak", "Oshqozon", "Yurak"],
+    "answer": "Buyrak"
+  },
+  {
+    "question": "Eng ko‘p ishlatiladigan dasturlash tili qaysi?",
+    "options": ["Python", "JavaScript", "C++", "Ruby"],
+    "answer": "JavaScript"
+  },
+  {
+    "question": "Odamlarda nechta sut tishi bo‘ladi?",
+    "options": ["20", "24", "28", "32"],
+    "answer": "20"
+  },
+  {
+    "question": "Eng katta sayyora qaysi?",
+    "options": ["Mars", "Venera", "Saturn", "Yupiter"],
+    "answer": "Yupiter"
+  },
+  {
+    "question": "Qaysi sport turi dunyoda eng mashhur?",
+    "options": ["Basketbol", "Futbol", "Tennis", "Boks"],
+    "answer": "Futbol"
+  },
+  {
+    "question": "Dunyodagi eng baland bino qaysi?",
+    "options": ["Eiffel minorasi", "Burj Xalifa", "Empire State", "Petronas minorasi"],
+    "answer": "Burj Xalifa"
+  },
+  {
+    "question": "Quyosh tizimidagi eng issiq sayyora qaysi?",
+    "options": ["Merkuriy", "Venera", "Mars", "Neptun"],
+    "answer": "Venera"
+  },
+  {
+    "question": "Qaysi metall eng qimmat?",
+    "options": ["Oltin", "Platina", "Kumush", "Rodiy"],
+    "answer": "Rodiy"
+  },
+  {
+    "question": "1 metr necha santimetr?",
+    "options": ["10", "50", "100", "1000"],
+    "answer": "100"
+  },
+  {
+    "question": "Dunyodagi eng uzun devor qaysi?",
+    "options": ["Berlin devori", "Buyuk Xitoy devori", "Hadrian devori", "Meksika devori"],
+    "answer": "Buyuk Xitoy devori"
+  },
+  {
+    "question": "Kompyuterda axborotni doimiy saqlovchi qurilma qaysi?",
+    "options": ["RAM", "HDD", "CPU", "GPU"],
+    "answer": "HDD"
+  },
+  {
+    "question": "Bir kunda nechta soat bor?",
+    "options": ["12", "24", "36", "48"],
+    "answer": "24"
+  },
+  {
+    "question": "Qaysi yurt poytaxti Parij?",
+    "options": ["Italiya", "Fransiya", "Ispaniya", "Germaniya"],
+    "answer": "Fransiya"
+  },
+  {
+    "question": "Elektr tokini kim kashf qilgan?",
+    "options": ["Nikola Tesla", "Benjamin Franklin", "Isaac Newton", "Galileo Galilei"],
+    "answer": "Benjamin Franklin"
+  },
+  {
+    "question": "Eng katta yirtqich mushuk qaysi?",
+    "options": ["Sher", "Leopard", "Yo‘lbars", "Gepard"],
+    "answer": "Yo‘lbars"
+  },
+  {
+    "question": "Dunyodagi eng uzun daryo qaysi?",
+    "options": ["Nil", "Amazonka", "Volga", "Missisipi"],
+    "answer": "Nil"
+  },
+  {
+    "question": "Qaysi mamlakat eng ko‘p orollarga ega?",
+    "options": ["Indoneziya", "Filippin", "Yaponiya", "Norvegiya"],
+    "answer": "Indoneziya"
+  },
+  {
+    "question": "Quyosh chiqish tomoni qaysi?",
+    "options": ["G‘arb", "Janub", "Sharq", "Shimol"],
+    "answer": "Sharq"
+  },
+  {
+    "question": "1 litr necha millilitr?",
+    "options": ["10", "100", "500", "1000"],
+    "answer": "1000"
+  },
+  {
+    "question": "Eng mashhur ijtimoiy tarmoq qaysi?",
+    "options": ["Facebook", "Instagram", "TikTok", "Twitter"],
+    "answer": "Facebook"
+  },
+  {
+    "question": "Qaysi sport turi eng tez o‘ynaladi?",
+    "options": ["Basketbol", "Boks", "Shahmat", "Stol tennisi"],
+    "answer": "Stol tennisi"
+  },
+  {
+    "question": "Eng katta qit'a qaysi?",
+    "options": ["Afrika", "Osiyo", "Yevropa", "Janubiy Amerika"],
+    "answer": "Osiyo"
+  },
+  {
+    "question": "Qaysi meva eng katta?",
+    "options": ["Tarvuz", "Ananas", "Banan", "Olma"],
+    "answer": "Tarvuz"
+  },
+  {
+    "question": "Dunyodagi eng ko‘p ishlatiladigan til qaysi?",
+    "options": ["Ingliz", "Xitoy", "Ispan", "Fransuz"],
+    "answer": "Xitoy"
+  },
+  {
+    "question": "Yerning yadrosi asosan nimadan iborat?",
+    "options": ["Temir", "Oltin", "Aluminiy", "Mis"],
+    "answer": "Temir"
+  },
+  {
+    "question": "Qaysi jonivor eng ko‘p uxlashni yoqtiradi?",
+    "options": ["Panda", "Fil", "Koala", "Maymun"],
+    "answer": "Koala"
+  },
+  {
+    "question": "Suv ostidagi eng katta hayvon qaysi?",
+    "options": ["Akula", "Delfin", "Ko‘k kit", "Baliq"],
+    "answer": "Ko‘k kit"
+  },
+  {
+    "question": "Eng uzoq umr ko‘ruvchi jonivor qaysi?",
+    "options": ["Fil", "To‘rtburchak dengiz toshi", "Qizil panda", "Timsoh"],
+    "answer": "To‘rtburchak dengiz toshi"
+  },
+  {
+    "question": "Eng ko‘p sut beruvchi hayvon qaysi?",
+    "options": ["Inson", "Echki", "Sigir", "Ot"],
+    "answer": "Sigir"
+  },
+  {
+    "question": "Eng uzun hayvon qaysi?",
+    "options": ["Fil", "Anakonda", "Jirafa", "Ko‘k kit"],
+    "answer": "Ko‘k kit"
+  },
+  {
+    "question": "Yer yuzidagi eng sovuq joy qaysi?",
+    "options": ["Antarktida", "Sibir", "Alyaska", "Grenlandiya"],
+    "answer": "Antarktida"
+  },
+  {
+    "question": "Eng mashhur internet qidiruv tizimi qaysi?",
+    "options": ["Bing", "Yahoo", "Google", "DuckDuckGo"],
+    "answer": "Google"
+  },
+  {
+    "question": "Suvda suzuvchi eng tez baliq qaysi?",
+    "options": ["Tuna", "Shark", "Sailfish", "Delfin"],
+    "answer": "Sailfish"
+  },
+  {
+    "question": "Eng ko‘p qizil rangda bo‘ladigan meva qaysi?",
+    "options": ["Olma", "Gilos", "Nok", "Shaftoli"],
+    "answer": "Gilos"
+  },
+  {
+    "question": "Yer yuzidagi eng issiq joy qaysi?",
+    "options": ["Sahara cho‘li", "O‘zbekiston", "Hindiston", "Amazonka"],
+    "answer": "Sahara cho‘li"
+  },
+  {
+    "question": "Qaysi qush eng uzoq masofaga ucha oladi?",
+    "options": ["To‘ti", "Burgut", "Albatros", "Qarg‘a"],
+    "answer": "Albatros"
+  },
+  {
+    "question": "Dunyodagi eng tez transport turi qaysi?",
+    "options": ["Poezd", "Tepa poyezd", "Samolyot", "Raketa"],
+    "answer": "Raketa"
+  },
+  {
+    "question": "Yerning qaysi qismi eng zich?",
+    "options": ["Yadro", "Mantiya", "Qobiq", "Atmosfera"],
+    "answer": "Yadro"
+  },
+  {
+    "question": "5 + 7 nechiga teng?",
+    "options": ["10", "11", "12", "13"],
+    "answer": "12"
+  },
+  {
+    "question": "10 × 3 nechiga teng?",
+    "options": ["30", "33", "13", "23"],
+    "answer": "30"
+  },
+  {
+    "question": "15 ning kvadrati nechiga teng?",
+    "options": ["125", "225", "250", "275"],
+    "answer": "225"
+  },
+  {
+    "question": "Suv necha darajada qaynaydi?",
+    "options": ["50°C", "75°C", "100°C", "150°C"],
+    "answer": "100°C"
+  },
+  {
+    "question": "Eng kichik tub son qaysi?",
+    "options": ["0", "1", "2", "3"],
+    "answer": "2"
+  },
+  {
+    "question": "Yerdagi tortishish tezlanishi qanchaga teng?",
+    "options": ["8.9 m/s²", "9.8 m/s²", "10.5 m/s²", "7.2 m/s²"],
+    "answer": "9.8 m/s²"
+  },
+  {
+    "question": "5 ning kublari yig‘indisi nechiga teng?",
+    "options": ["125", "250", "100", "150"],
+    "answer": "125"
+  },
+  {
+    "question": "1 kilometr necha metrga teng?",
+    "options": ["10", "100", "1000", "10000"],
+    "answer": "1000"
+  },
+  {
+    "question": "Eng katta ikki xonali son qaysi?",
+    "options": ["90", "98", "99", "100"],
+    "answer": "99"
+  },
+  {
+    "question": "Ohangraning kimyoviy belgisi nima?",
+    "options": ["Fe", "O", "Hg", "Au"],
+    "answer": "Hg"
+  },
+  {
+    "question": "Issiqlik o‘tkazuvchanligi eng yaxshi bo‘lgan metal qaysi?",
+    "options": ["Temir", "Mis", "Oltin", "Kumush"],
+    "answer": "Kumush"
+  },
+  {
+    "question": "Dumaloq shaklning yuzasini hisoblash formulasi qanday?",
+    "options": ["πr²", "2πr", "πd", "r² + d"],
+    "answer": "πr²"
+  },
+  {
+    "question": "Eng katta umumiy bo‘luvchi (GCD) nima?",
+    "options": ["Eng katta son", "Ikki sonning bo‘luvchisi", "Sonlarning yig‘indisi", "Eng kichik son"],
+    "answer": "Ikki sonning bo‘luvchisi"
+  },
+  {
+    "question": "Ohm qonuniga ko‘ra, tok kuchi qanday hisoblanadi?",
+    "options": ["I = U/R", "I = R/U", "I = U×R", "I = U²/R"],
+    "answer": "I = U/R"
+  },
+  {
+    "question": "1000 gram nechta kilogramm?",
+    "options": ["0.1", "1", "10", "100"],
+    "answer": "1"
+  },
+  {
+    "question": "Nima uchun osmon moviy rangda ko‘rinadi?",
+    "options": ["Quyosh nuri sinishi", "Chang zarralari", "Suv bug‘lari", "Havodagi kislorod"],
+    "answer": "Quyosh nuri sinishi"
+  },
+  {
+    "question": "Qanday o‘lchov birliklari vaqtni o‘lchash uchun ishlatiladi?",
+    "options": ["Sekund, soat, kun", "Kilogramm, metr, soat", "Metr, tonna, amper", "Gradus, pascal, amper"],
+    "answer": "Sekund, soat, kun"
+  },
+  {
+    "question": "Bir atomdagi elektronlar soni qanday aniqlanadi?",
+    "options": ["Protonlar soniga teng", "Neutronlar soniga teng", "Massasiga qarab", "Energiya darajasiga qarab"],
+    "answer": "Protonlar soniga teng"
+  },
+  {
+    "question": "Eng tez harakatlanadigan narsa qaysi?",
+    "options": ["Samolyot", "Olov", "Chaqmoq", "Yorug‘lik"],
+    "answer": "Yorug‘lik"
+  },
+  {
+    "question": "Sonning kvadrat ildizini topish nimani anglatadi?",
+    "options": ["Sonni kvadratga ko‘paytirish", "Sonni o‘ziga bo‘lish", "Sonni kvadrat qilish", "Sonning ildizini topish"],
+    "answer": "Sonning ildizini topish"
+  },
+  {
+    "question": "Agar tortishish kuchi 9.8 m/s² bo‘lsa, 2 kg massa qanday kuch bilan tortiladi?",
+    "options": ["9.8 N", "19.6 N", "4.9 N", "2 N"],
+    "answer": "19.6 N"
+  },
+  {
+    "question": "Energiyaning o‘lchov birligi nima?",
+    "options": ["Volt", "Joul", "Newton", "Watt"],
+    "answer": "Joul"
+  },
+  {
+    "question": "Birinchi qonun qaysi olim tomonidan aytilgan?",
+    "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+    "answer": "Isaac Newton"
+  },
+  {
+    "question": "Issiqlik energiyasi qanday o‘tadi?",
+    "options": ["Nur tarqalish", "Konveksiya", "Oqim", "Barchasi"],
+    "answer": "Barchasi"
+  },
+  {
+    "question": "Agar bir uchburchakning asos uzunligi 10 sm, balandligi 5 sm bo‘lsa, uning yuzi nechiga teng?",
+    "options": ["50 sm²", "25 sm²", "20 sm²", "30 sm²"],
+    "answer": "25 sm²"
+  },
+  {
+    "question": "Neutronlar qaysi zaryadga ega?",
+    "options": ["Musbat", "Manfiy", "Neytral", "Ikki tomonlama"],
+    "answer": "Neytral"
+  },
+  {
+    "question": "Eng kichik natural son qaysi?",
+    "options": ["0", "1", "2", "3"],
+    "answer": "1"
+  },
+  {
+    "question": "Bo‘linmaydigan sonlar nima deb ataladi?",
+    "options": ["Juft sonlar", "Tub sonlar", "Murakkab sonlar", "Musbat sonlar"],
+    "answer": "Tub sonlar"
+  },
+  {
+    "question": "Tortishish kuchi qayerda eng kuchli?",
+    "options": ["Ekvator", "Qutblar", "Kosmos", "O‘rtacha haroratli joylar"],
+    "answer": "Qutblar"
+  }
+]
+
