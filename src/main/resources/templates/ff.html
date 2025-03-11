@@ -7,35 +7,7 @@
 <body>
 
 <script>
-  async function submitTest() {
-    if (Object.keys(answers).length < questions.length) {
-      let confirmFinish = confirm("Hali barcha savollarga javob berilmadi. Baribir testni yakunlashni istaysizmi?");
 
-      if (!confirmFinish) {
-        return; // Agar "Yo‘q" bosilsa, test davom etadi.
-      } else {
-        // Agar "Ha" bosilsa, test tugaydi va natija `0` bo‘ladi.
-        document.getElementById("test-container").style.display = "none";
-        document.getElementById("result-container").style.display = "block";
-        document.getElementById("result-container").innerHTML = `<p>Sizning natijangiz: <b>0</b></p>`;
-        return;
-      }
-    }
-
-    // Agar barcha savollarga javob berilgan bo‘lsa, natija serverga yuboriladi
-    const response = await fetch('/api/tests/check', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(answers)
-    });
-
-    const result = await response.text();
-
-    // Test natijasini sahifada chiqarish
-    document.getElementById("test-container").style.display = "none";
-    document.getElementById("result-container").style.display = "block";
-    document.getElementById("result-container").innerHTML = `<p>Sizning natijangiz: <b>${result}</b></p>`;
-  }
 </script>
 
 
